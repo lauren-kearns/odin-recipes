@@ -1,0 +1,56 @@
+
+/* reset.css */
+html, body, div, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav-bar {
+    background-color: black;
+}
+
+#odin-recipes-logo {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+}
+
+.container.background-img {
+    background-image: url('images/kitchen-hero.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.container.recipe {
+    display: flex;
+    height: auto;
+    background-color: #f8f8f8;
+    padding: 80px;
+  }
+
+  .recipe-img {
+    background-size: cover;
+    height: 300px;
+    width: 80px;
+    background-color: aqua;
+    flex: 1;
+    margin: 30px;
+    border-radius: 3%;
+  }
+
+  .lasagna {
+    background-image: url('images/pexels-alleksana-5949885.jpg');
+    background-clip: content-box;
+  }
+
+  .chicken {
+    background-image: url('images/butter-chicken.jpeg');
+    background-position: center;
+  }
+
+  .lamb {
+    background-image: url('images/lamb-lentil-soup.png');
+    background-position: center;
+  }
