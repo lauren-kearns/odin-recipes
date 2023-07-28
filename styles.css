@@ -11,46 +11,62 @@ html, body, div, p, h1, h2, h3, h4, h5, h6 {
 
 #odin-recipes-logo {
     color: white;
-    text-align: center;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20pt;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    /* Optionally, you can set the container's height and width */
+    /* height: 100vh; */
+    /* width: 100%; */
 }
 
-.container.background-img {
-    background-image: url('images/kitchen-hero.png');
+.hero-img {
+    background-image: url(images/kitchen-hero.png);
     background-size: cover;
     height: 500px;
 }
 
-.container.recipe {
-    display: flex;
-    height: auto;
+.featured-recipes {
     background-color: #f8f8f8;
-    padding: 80px;
+    padding: 50px;
   }
 
-  .recipe-img {
-    background-size: cover;
+.recipe-one,
+.recipe-two,
+.recipe-three {
+    display: inline-block;
+    width: 27%;
     height: 300px;
-    width: 80px;
-    background-color: aqua;
-    flex: 1;
     margin: 30px;
-    border-radius: 3%;
-  }
+    border-radius: 2%;
+} 
 
-  .lasagna {
+.recipe-one {
     background-image: url('images/pexels-alleksana-5949885.jpg');
     background-clip: content-box;
   }
 
-  .chicken {
+.recipe-two {
     background-image: url('images/butter-chicken.jpeg');
     background-position: center;
   }
 
-  .lamb {
+.recipe-three {
     background-image: url('images/lamb-lentil-soup.png');
     background-position: center;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    height: 125px;
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    /* Optionally, you can set the container's height and width */
+    /* height: 100vh; */
+    /* width: 100%; */
   }
