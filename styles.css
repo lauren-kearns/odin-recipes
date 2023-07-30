@@ -29,9 +29,27 @@ html, body, div, p, h1, h2, h3, h4, h5, h6 {
     height: 500px;
 }
 
+.hero-slogan {
+    background-color: rgba(0, 0, 0, 0.2);
+    color:aliceblue;
+    height: 500px;
+    font-size: 25pt;
+    padding-top: 220px;
+    padding-left: 155px;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    display: block;
+    background-color: aqua;
+}
+
 .featured-recipes {
     background-color: #f8f8f8;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
   }
 
 .recipe-one,
@@ -46,17 +64,19 @@ html, body, div, p, h1, h2, h3, h4, h5, h6 {
 
 .recipe-one {
     background-image: url('images/pexels-alleksana-5949885.jpg');
-    background-clip: content-box;
+    background-size: cover;
   }
 
 .recipe-two {
     background-image: url('images/butter-chicken.jpeg');
-    background-position: center;
+    background-size: 100% auto;
+    background-position: 0 50%;
   }
 
 .recipe-three {
     background-image: url('images/lamb-lentil-soup.png');
-    background-position: center;
+    background-size: 100% auto;
+    background-position: 10% 25%;
   }
 
   footer {
